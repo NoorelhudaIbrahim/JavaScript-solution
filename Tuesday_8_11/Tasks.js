@@ -124,20 +124,20 @@ and return the two middle elemnt in an array if it is have an even elemnets
 Ex: middleOfArray([1,4,5]) => 4
 Ex: middleOfArray(["t","u","g","x"]) =>"u and g"
 */
-function middleOfArray(array){
-    var l=array.length;
-    if(l%2==0){
-       console.log(array[l/2-1],array[l/2]);
-    }
-    else if(l%2!=0){
+// function middleOfArray(array){
+//     var l=array.length;
+//     if(l%2==0){
+//        console.log(array[l/2-1],array[l/2]);
+//     }
+//     else if(l%2!=0){
         
-        console.log(array[Math.fround(l/2)]);
-    }
+//         console.log(array[Math.floor(l/2)]);
+//     }
 
 
-}
-middleOfArray([1,4,5]) 
-middleOfArray(["t","u","g","x"]) 
+// }
+// middleOfArray([1,4,5]) 
+// middleOfArray(["t","u","g","x"]) 
 
 //---------------------------------------------------
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+<body>
+
+    <button id="btn" onmouseenter="mybutton1()"  onmouseleave="mybutton2()" style="background-color:yellow;">Hello world</button><br><br>
+    <button id="btn1" onmouseenter="setTimeout(mybutton3,500)"  onmouseleave="setTimeout(mybutton4,500)" style="background-color:yellow;">Hello world</button>
+
+
+    <script>
+        function mybutton1(){
+            document.getElementById("btn").style.backgroundColor = "red" ;
+           
+
+
+        }
+        function mybutton2(){
+            
+            document.getElementById("btn").style.backgroundColor = "yellow";
+
+
+        }
+
+        function mybutton3(){
+        document.getElementById("btn1").style.backgroundColor = "red" ;
+       
+
+
+    }
+        function mybutton4(){
+        
+        document.getElementById("btn1").style.backgroundColor = "yellow";
+
+
+    }
+
+
+
+    </script>
+</body>
+</html>
